@@ -9,4 +9,32 @@ if romania == "bucharest" or romania == "bucuresti":
 else:
     print("Wrong answer, the capital of Romania is Bucharest")
 
+france = input("What is the capital of France? : ")
+
+france = france.lower()
+if france == "paris":
+    print("Congrats, you answered correctly!")
+    count+=1
+else:
+    print("Wrong answer, the capital of France is Paris")
+
+hungary = input("What is the capital of Hungary? : ")
+
+hungary = hungary.lower()
+if hungary == "budapest" or hungary == "budapesta":
+    print("Congrats, you answered correctly!")
+    count+=1
+else:
+    print("Wrong answer, the capital of Hungary is Budapest")
+
+southKorea = input("What is the capital of South Korea? : ")
+
+southKorea = southKorea.lower()
+
+if southKorea == "seul" or southKorea=="seoul":
+    print("Correct!")
+    count+=1
+else:
+    print("Wrong!")
+
 print(f"You had {count} correct answers!")
